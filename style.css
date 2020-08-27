@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  background-image: url("IMG_7593.jpeg");
+  background-position: center;
+}
+
+
+/* ヘッダー */
+
+
+.header{
+  display: flex;
+  align-items: center;
+  /* background-color:rgba(165, 89, 236, 0.164); */
+  margin-top: 140px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  float: left;
+  font-size: 20px;
+  font-family: 'Gotu', sans-serif;
+  margin-bottom: 0px;
+}
+
+.header-list{
+  padding-left: 150px;
+}
+
+.icon img{
+  border-radius: 50%;
+  border-color: rgb(57, 122, 114);
+  border-style: groove;
+  border-width: 6px;
+  margin-left: 230px;
+}
+
+
+.header-log{
+  font-size: 35px;
+  margin-left: 28px;
+  font-family: 'Montserrat Subrayada', sans-serif; 
+}
+
+.header-log>p{
+  margin: 0px;
+}
+
+.header-list li{
+  padding: 33px 10px;
+}
+
+a{
+  color: rgb(204, 3, 3);
+  text-decoration: none;
+  font-weight: 900;
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* ヘッダー */
+/* メイン */
+
+
+main{
+  height: 300px;
+}
+
+/* メイン */
+/* フッター */
+
+
+.footer{
+  background-color:rgba(165, 89, 236, 0.164) ;
+  height: 95px;
+}
+.footer-log{
+  margin-left: 180px;
+  float: left;
+}
+.footer-log>p{
+  font-family: 'Montserrat Subrayada';
+  margin: 0px;
+  font-size: 35px;
+}
+
+.footer-list{
+  float: right;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 200px;
+  /* border-bottom: 2px solid darkturquoise; */
+}
+.footer-list li{
+  margin-right: 35px;
+  font-size: 30px;
+  border-bottom: 2px groove darkturquoise;
+}
+
